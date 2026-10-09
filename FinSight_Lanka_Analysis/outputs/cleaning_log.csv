@@ -1,0 +1,29 @@
+Issue,Rows affected,Action taken
+Inconsistent values for Gender,6,Stardardized values to Male and Female
+Inconsistent values for Gender,6,Stardardized values to Male and Female
+Inconsistent values for Gender,0,Stardardized values to Male and Female
+Inconsistent values for Gender,0,Stardardized values to Male and Female
+Account_Status values capitalized,3,Capitalized all Account_Status values
+Account_Status values capitalized,0,Capitalized all Account_Status values
+Incorrect spellings for districts,4,Corrected the spellings
+Incorrect spellings for districts,0,Corrected the spellings
+Placeholder and negative (Uncertainty on removal) values exist,5,Values are blanked
+Placeholder monthly withdrawal,2,Values is blanked
+Placeholder and negative (Uncertainty on removal) values exist,0,Values are blanked
+Placeholder monthly withdrawal,0,Values is blanked
+"Adjusted for impossible or inconsistent ages (for example 4, 99, 134, 150)",4,Rebuilt from date of birth; blanked if still impossible
+"Adjusted for impossible or inconsistent ages (for example 4, 99, 134, 150)",4,Rebuilt from date of birth; blanked if still impossible
+Fixed date stamp values that are set in the future,3,Impossible date values are blanked
+"Adjusted for impossible or inconsistent ages (for example 4, 99, 134, 150)",4,Rebuilt from date of birth; blanked if still impossible
+Fixed date stamp values that are set in the future,0,Impossible date values are blanked
+"Adjusted for impossible or inconsistent ages (for example 4, 99, 134, 150)",4,Rebuilt from date of birth; blanked if still impossible
+Fixed date stamp values that are set in the future,0,Impossible date values are blanked
+The Has_Loan column doesn't agree with other loan columns,9,Either trusted the other loan column values or marked as No if they are empty
+The loan started before the account was created,3,Not handled because there is a chance of the loan being transferred
+The Has_Loan column doesn't agree with other loan columns,9,Either trusted the other loan column values or marked as No if they are empty
+The loan started before the account was created,3,Not handled because there is a chance of the loan being transferred
+Number_of_Products not mathcing the flags,3,Corrected recount of products
+"missing values in Customer_Segment, District, KYC_Status",17,Marked as Unknown
+"missing values in Customer_Segment, District, KYC_Status",17,Marked as Unknown
+Customer_IDs are duplicated,8,Removed Duplicates
+Same NIC number on different Customer_IDs,6,Flagged but not removed because could be a data-entry error or the same person
